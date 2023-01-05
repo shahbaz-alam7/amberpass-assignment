@@ -1,0 +1,125 @@
+/* {#382bdb} */
+.navbar {
+  background-color: #fff;
+  width: 18vw;
+  border-right: 1px solid #808fa140;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #808fa163;
+}
+.title-container img {
+  width: 40px;
+  margin: 20px 15px;
+}
+.navbar .heading {
+  color: #808fa1;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.side-links {
+  padding: 10px 20px;
+}
+.navbar .link {
+  border-radius: 5px;
+  height: 35px;
+  margin-bottom: 5px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.drop {
+  float: right;
+  position: absolute;
+  right: 10px;
+}
+.icon {
+  padding-right: 10px;
+  color: #808fa1;
+  font-size: 1.2rem;
+}
+ .link {
+  color: #808fa1;
+}
+.navbar .link:hover,
+.link:hover .link span {
+  /* border: 2px solid #808fa1; */
+  background-color: #1865c2;
+  color: #fff !important;
+}
+
+/* top-nav */
+.top-nav {
+  background-color: #fff;
+  width: 82vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.search {
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search input {
+  border: none;
+  outline: none;
+}
+p {
+  color: #808fa1;
+}
+.user-acc {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-div {
+  width: 105px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon-div .icon {
+  font-size: 1.4rem;
+}
+.name {
+  margin: 0 10px;
+  text-align: center;
+  /* background-color: #1865c2; */
+}
+.user-detail {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.user-detail img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.msg {
+  width: 100%;
+  padding-right: 10px;
+}
+.msg p {
+  float: right;
+  background-color: #1865c2;
+  width: 20px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+}
+.link:hover .msg p {
+  color: #1865c2;
+  background-color: #fff;
+}
+.link:hover .icon,
+.link:hover .link span {
+  color: #fff !important;
+}
